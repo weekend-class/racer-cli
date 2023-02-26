@@ -69,8 +69,6 @@ async function createRace(totalPlayer, trackLength) {
   process.exit();
 }
 
-// Calculator App
-
 async function main(input) {
   clearScreen();
   const inputGame = input.split(" ").map(Number);
